@@ -7,4 +7,4 @@
   tasks: 
   - name: check variables
     ansible builtin.debug:
-      msg: "iam learning {{course}}, trainer is {{trainer}}, {{duration}} is 120 HRS"
+      msg: "iam learning {{course}}, trainer is {{trainer}}, {{duration}}"
