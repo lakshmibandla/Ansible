@@ -6,6 +6,6 @@
   tasks: 
   - name: checking
     vars:
-    Name: "lucky with nani"
+    wishes: "gud nite"
     ansible.builtin.debug:
       msg: "iam name is  {{Name}}, wishes is {{wishes}}"
