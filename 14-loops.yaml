@@ -1,0 +1,11 @@
+- name: loops
+  hosts: web
+  tasks:
+  - name: print person
+    ansible.builtin.pacakage:
+      name: {{item}}"
+      state: present
+    loop:
+      - git
+      - mysql
+      
