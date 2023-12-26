@@ -1,5 +1,5 @@
 - name: variables
-  host: web
+  hosts: web
   vars:
     Name: "lucky"
     wishes: "gudmng"
