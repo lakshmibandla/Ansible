@@ -1,0 +1,9 @@
+- name: variables
+  host: web
+  vars:
+    Name: "lucky"
+    wishes: "gudmng"
+  tasks: 
+  - name: checking
+    ansible.builtin.debug:
+      msg: "iam name is  {{Name}}, wishes is {{wishes}}"
