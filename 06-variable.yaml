@@ -1,0 +1,6 @@
+- name: Variables
+  hosts: web
+  tasks:
+  - name: Variables checking
+    ansible.builtin.debug:
+      msg: "i love u"
