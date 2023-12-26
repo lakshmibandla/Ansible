@@ -1,10 +1,10 @@
 - name: variables from PLAY level
   hosts: web
   vars: 
-    course: "devops"
-    trainer: "sivakumar"
-    duration: "120 HRS"
+    Course: "Devops"
+    Trainer: "Sivakumar"
+    Duration: "120 HRS"
   tasks: 
   - name: check variables
-    ansible builtin.debug:
-      msg: "iam learning {{course}}, trainer is {{trainer}}, {{duration}}"
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is{{Duration}}"
