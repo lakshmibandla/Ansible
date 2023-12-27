@@ -2,12 +2,11 @@
   hosts: web
   tasks: 
   - name: checking user
-    ansible.builtin.user:
+    ansible.builtin.pacakage:
       name: "{{item}}"
       state: present
-      group: wheel
     loop:
-      lakshmi
-      nani
-      chinnu
-      varun
+      git
+      mysql
+      
+      
