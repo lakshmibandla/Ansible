@@ -1,5 +1,5 @@
 - name: create users
-  hosts: web
+  hosts: localhost
   become: yes
   tasks: 
   - name: checking user
