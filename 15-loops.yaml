@@ -1,0 +1,13 @@
+- name: create users
+  hosts: web
+  tasks: 
+  - name: checking.user
+    ansible.buitin.user:
+      name: "{{item}}"
+      state: present
+      group: wheel
+    loops:
+      lakshmi
+      nani
+      chinnu
+      varun
