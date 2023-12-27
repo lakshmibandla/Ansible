@@ -2,7 +2,7 @@
   hosts: web
   tasks: 
   - name: checking.user
-    ansible.buitin.user:
+    ansible.builtin.user:
       name: "{{item}}"
       state: present
       group: wheel
