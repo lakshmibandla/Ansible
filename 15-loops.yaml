@@ -1,13 +1,12 @@
-- name: create users
+- name: loops
   hosts: localhost
-  become: yes
   tasks: 
-  - name: checking user
+  - name: print persons
     ansible.builtin.package:
       name: "{{item}}"
       state: present
     loop:
-      git
-      mysql
+    - git
+    - mysql
       
       
