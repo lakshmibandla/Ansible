@@ -6,7 +6,7 @@
       name: "{{item}}"
       state: present
       group: wheel
-    loops:
+    loop:
       lakshmi
       nani
       chinnu
