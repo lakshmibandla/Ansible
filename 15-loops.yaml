@@ -1,8 +1,9 @@
 - name: create users
   hosts: web
+  become: yes
   tasks: 
   - name: checking user
-    ansible.builtin.pacakage:
+    ansible.builtin.package:
       name: "{{item}}"
       state: present
     loop:
