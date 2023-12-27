@@ -1,7 +1,7 @@
 - name: create users
   hosts: web
   tasks: 
-  - name: checking.user
+  - name: checking user
     ansible.builtin.user:
       name: "{{item}}"
       state: present
